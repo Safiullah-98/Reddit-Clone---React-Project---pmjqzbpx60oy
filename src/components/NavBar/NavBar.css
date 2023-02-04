@@ -1,1 +1,37 @@
 
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+}
+
+.nav button, form button{
+    margin: 20px;
+    padding: 10px 41px;
+    background-color: rgb(152, 232, 246);
+    border: none;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nav button:hover{
+    box-shadow: rgb(255, 255, 255) 0px 2px 8px 0px;
+     cursor: pointer;
+     transition: 2.5ms;
+     background-color: rgb(121, 171, 214);
+     color: white
+}
+
+nav h2{
+    margin: 20px;
+}
+
+nav i{
+    margin: 5px;
+}
+
+.nav svg{margin-top: 15px;}
