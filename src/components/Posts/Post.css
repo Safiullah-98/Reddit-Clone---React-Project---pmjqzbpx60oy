@@ -1,1 +1,54 @@
 
+.postContainer{
+    width: 60vw;
+    margin: auto;
+}
+
+
+.posts{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    background-color: aliceblue;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin: 20px;
+    grid-gap: 20px;
+}
+
+.voteBar{
+    display: flex;
+}
+
+.voteBar div{
+margin: 5px;
+text-align: center;
+}
+
+.voteBar i{
+    cursor: pointer;
+}
+
+.fa-arrow-up
+{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.fa-arrow-down
+{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+@media (max-width: 970px){
+  .postContainer{width: 90vw;}
+}
+
+@media (max-width: 600px){
+    .posts{
+        grid-template-rows: 10vh 1fr;
+        grid-template-columns: 1fr;
+    }
+}
