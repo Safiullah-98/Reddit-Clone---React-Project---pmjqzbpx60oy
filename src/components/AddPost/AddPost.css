@@ -1,1 +1,40 @@
 
+.postCard form{
+    width: 40vw;
+    height: 80vh;
+    position: absolute;
+    top: 10vh;
+    left: 30vw;
+}
+.postCard button{
+    margin: 20px ;
+}
+
+textarea{
+    width: 90%;
+}
+
+.postCard{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1300;
+    height: 100vh;
+}
+
+@media (max-width: 970px){
+ 
+    .postCard form {
+      width: 60vw;
+      left: 20vw;
+    
+    }
+    
+    @media (max-width: 600px){
+     .postCard form{
+        width: 80vw;
+        left: 10vw;
+      }
+    }
+}
+    
